@@ -17,35 +17,35 @@ export function Main() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            href="#"
+            href="/"
             className="text-sm font-inter font-medium text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             Home
           </Link>
           <Link
-            href="#"
+            href="/about"
             className="text-sm font-inter font-medium text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             About
           </Link>
           <Link
-            href="#"
+            href="/competition"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             Competition
           </Link>
           <Link
-            href="#"
+            href="/projects"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             Projects
           </Link>
           <Link
-            href="#"
+            href="/gallery"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
@@ -160,61 +160,7 @@ export function Main() {
             </div>
           </div>
         </section>
-        <section className="w-full py-12 md:py-24 lg:py-32 bg-muted">
-          <div className="container mx-auto px-4 md:px-6 max-w-6xl">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center">
-              <div className="space-y-2">
-                <h2 className="text-3xl font-bold font-heading tracking-tighter text-foreground sm:text-5xl">
-                  Meet the Team
-                </h2>
-                <p className="max-w-[900px] font-inter text-muted-foreground font-normal tracking-tight md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  Get to know the passionate individuals behind C.O.D.E.
-                </p>
-              </div>
-              <div className="mx-auto grid max-w-5xl items-center gap-6 py-12 sm:grid-cols-2 lg:grid-cols-3 lg:gap-12">
-                <Card className="bg-background p-6 shadow-sm">
-                  <CardHeader>
-                    <Avatar className="w-24 h-24">
-                      <AvatarImage src="/placeholder-user.jpg" alt="Avatar" />
-                      <AvatarFallback>JD</AvatarFallback>
-                    </Avatar>
-                    <CardTitle>John Doe</CardTitle>
-                    <CardDescription>President</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </CardContent>
-                </Card>
-                <Card className="bg-background p-6 shadow-sm">
-                  <CardHeader>
-                    <Avatar className="w-24 h-24">
-                      <AvatarImage src="/placeholder-user.jpg" alt="Avatar" />
-                      <AvatarFallback>JS</AvatarFallback>
-                    </Avatar>
-                    <CardTitle>Jane Smith</CardTitle>
-                    <CardDescription>Vice President</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </CardContent>
-                </Card>
-                <Card className="bg-background p-6 shadow-sm">
-                  <CardHeader>
-                    <Avatar className="w-24 h-24">
-                      <AvatarImage src="/placeholder-user.jpg" alt="Avatar" />
-                      <AvatarFallback>BD</AvatarFallback>
-                    </Avatar>
-                    <CardTitle>Bob Davis</CardTitle>
-                    <CardDescription>Treasurer</CardDescription>
-                  </CardHeader>
-                  <CardContent>
-                    <p className="text-muted-foreground">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                  </CardContent>
-                </Card>
-              </div>
-            </div>
-          </div>
-        </section>
+
         {/* <section className="w-full py-12 md:py-24 lg:py-32">
           <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <div className="flex flex-col items-center justify-center space-y-4 text-center">

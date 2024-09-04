@@ -17,35 +17,35 @@ export function About() {
         </Link>
         <nav className="ml-auto flex gap-4 sm:gap-6">
           <Link
-            href="#"
+            href="/"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             Home
           </Link>
           <Link
-            href="#"
+            href="/about"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             About
           </Link>
           <Link
-            href="#"
+            href="/competition"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             Competition
           </Link>
           <Link
-            href="#"
+            href="/projects"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >
             Projects
           </Link>
           <Link
-            href="#"
+            href="/gallery"
             className="text-sm font-medium font-inter text-foreground hover:underline underline-offset-4"
             prefetch={false}
           >

@@ -4,6 +4,7 @@ import { Bricolage_Grotesque, Space_Mono } from "next/font/google";
 import { cn } from "@/lib/utils";
 import "./globals.css";
 import { Inter } from "next/font/google";
+import { Metadata } from "next";
 
 const fontInter = Inter({
   subsets: ["latin"],
