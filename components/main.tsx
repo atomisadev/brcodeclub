@@ -1,15 +1,26 @@
-import Link from "next/link"
-import { Card, CardHeader, CardTitle, CardContent, CardFooter, CardDescription } from "@/components/ui/card"
-import { Button } from "@/components/ui/button"
-import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar"
-import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
+import Link from "next/link";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent,
+  CardFooter,
+  CardDescription,
+} from "@/components/ui/card";
+import { Button } from "@/components/ui/button";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
+import { Input } from "@/components/ui/input";
+import { Textarea } from "@/components/ui/textarea";
 
 export function Main() {
   return (
     <div className="flex flex-col min-h-[100dvh]">
       <header className="px-4 lg:px-6 h-14 flex items-center bg-background">
-        <Link href="#" className="flex items-center justify-center" prefetch={false}>
+        <Link
+          href="#"
+          className="flex items-center justify-center"
+          prefetch={false}
+        >
           <CodeIcon className="h-6 w-6 text-primary mr-2" />
           <span className="text-xl font-bold text-foreground font-heading">
             C.O.D.E.
@@ -56,17 +67,20 @@ export function Main() {
       <main className="flex-1">
         <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-background">
           <div className="container mx-auto px-4 md:px-6 max-w-6xl">
-            <div className="grid gap-6 lg:grid-cols-2 lg:gap-12">
-              <div className="flex flex-col justify-center space-y-4">
-                <div className="space-y-2">
+            <div className="grid gap-6 lg:grid-cols-1 lg:gap-12">
+              <div className="flex flex-col items-center justify-center space-y-4">
+                <div className="space-y-2 text-center">
                   <h1 className="text-3xl font-bold font-heading tracking-tighter text-foreground sm:text-5xl xl:text-6xl/none">
                     Welcome to C.O.D.E. Club
                   </h1>
                   <p className="max-w-[600px] font-inter text-muted-foreground font-normal tracking-tight md:text-xl">
-                    At C.O.D.E. Club, we're passionate about helping introduce the world of programming to any BRHS
-                    student. Since 2020, C.O.D.E. Club has provided a high-quality education and support to all of our
-                    club members. Our commitment to your computer science needs remains the key driving force behind our
-                    club. Our team of officers is here to guide and inspire you with their unique ideas and abilities.
+                    At C.O.D.E. Club, we're passionate about helping introduce
+                    the world of programming to any BRHS student. Since 2020,
+                    C.O.D.E. Club has provided a high-quality education and
+                    support to all of our club members. Our commitment to your
+                    computer science needs remains the key driving force behind
+                    our club. Our team of officers is here to guide and inspire
+                    you with their unique ideas and abilities.
                   </p>
                 </div>
                 <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -114,8 +128,8 @@ export function Main() {
                 </CardHeader>
                 <CardContent className="flex-1">
                   <p className="text-muted-foreground font-inter">
-                    The people who are behind it all, a successful club that inspires and educates members about
-                    software development
+                    The people who are behind it all, a successful club that
+                    inspires and educates members about software development
                   </p>
                 </CardContent>
                 <CardFooter>
@@ -128,9 +142,10 @@ export function Main() {
                 </CardHeader>
                 <CardContent className="flex-1">
                   <p className="text-muted-foreground font-inter">
-                    Unlock your potential and showcase your coding expertise at our premier code competition. Come and
-                    put your skills to the test for a chance to win valuable prizes and recognition in the tech
-                    community.
+                    Unlock your potential and showcase your coding expertise at
+                    our premier code competition. Come and put your skills to
+                    the test for a chance to win valuable prizes and recognition
+                    in the tech community.
                   </p>
                 </CardContent>
                 <CardFooter>
@@ -143,7 +158,8 @@ export function Main() {
                 </CardHeader>
                 <CardContent className="flex-1">
                   <p className="text-muted-foreground font-inter">
-                    Check out some of the cool past projects members of this club have made
+                    Check out some of the cool past projects members of this
+                    club have made
                   </p>
                 </CardContent>
                 <CardFooter>
@@ -200,7 +216,7 @@ export function Main() {
         </nav>
       </footer>
     </div>
-  )
+  );
 }
 
 function CodeIcon(props: any) {
@@ -220,5 +236,5 @@ function CodeIcon(props: any) {
       <polyline points="16 18 22 12 16 6" />
       <polyline points="8 6 2 12 8 18" />
     </svg>
-  )
+  );
 }
